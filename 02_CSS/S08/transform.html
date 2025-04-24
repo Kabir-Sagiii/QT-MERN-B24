@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #box {
+        width: 100px;
+        height: 100px;
+        background-color: coral;
+        margin: 150px auto;
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-delay: 1s;
+        transition-timing-function: ease-in-out;
+      }
+
+      #box:hover {
+        background-image: url("https://www.crushpixel.com/big-static7/preview4/portrait-young-professional-man-suit-258742.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        /* transform: translateX(-200px); */
+        /* transform: translate(-200px, 400px); */
+        /* transform: rotateY(-180deg); */
+        transform: scale(0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box"></div>
+  </body>
+</html>
